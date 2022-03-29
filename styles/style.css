@@ -1,0 +1,109 @@
+:root{
+    /*Primary*/
+    --Dark-Blue-signInBg: hsl(217, 28%, 15%);
+    --Dark-Blue-mainBg:hsl(218, 28%, 13%);
+    --Dark-Blue-footerBg:hsl(216, 53%, 9%);
+    --Dark-Blue-testimonialsBg:hsl(219, 30%, 18%);
+    /*Accent*/
+    --Cyan:hsl(176, 68%, 64%);
+    --Blue:hsl(198, 60%, 50%);
+    --Light-Red-error:hsl(0, 100%, 63%);
+    --White:hsl(0, 0%, 95%);
+    --WhiteLow:hsla(0, 0%, 95%, 0.774);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+    list-style:none;
+    text-decoration:none;
+}
+body{
+    font-size:14px;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:5%;
+    background-color:var(--Dark-Blue-signInBg);
+    font-family: 'Raleway', sans-serif;
+}
+header>img{
+    width:12%;
+}
+li{
+    display:inline-block;
+    padding-right:40px;
+}
+li:nth-child(3){
+    padding-right:0;
+}
+li>a{
+    color:var(--WhiteLow);
+}
+li>a:hover{
+    color:var(--White);
+    text-decoration:underline;
+}
+.top-section{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    background:url(../images/bg-curvy-desktop.svg),var(--Dark-Blue-signInBg);
+    background-repeat:no-repeat;
+    background-position: 100% 128%;
+}
+.top-section>h1{
+    color:var(--White);
+    font-size:2em;
+    width:625px;
+    margin-top:30px;
+    text-align:center;
+    line-height:40px;
+}
+.top-section>p{
+    color:var(--WhiteLow);
+    width:420px;
+    margin:20px 0;
+    text-align:center;
+    line-height:20px;
+}
+.top-section>img{
+    width:40%;
+}
+.top-section>a{
+    background-color:var(--Blue);
+    color:var(--White);
+    padding:12px 70px 12px 70px;
+    border-radius:30px;
+    font-weight:700;
+}
+main{
+    background-color:var(--Dark-Blue-mainBg);
+}
+.benefits{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:820px;
+    margin:auto;
+    padding:15% 0;
+    gap:125px;
+}
+.benefit-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+.benefit-content>h2{
+    padding:20px 0 8px 0;
+    font-weight:400;
+    color:var(--White);
+}
+.benefit-content>p{
+    color:var(--WhiteLow);
+}
