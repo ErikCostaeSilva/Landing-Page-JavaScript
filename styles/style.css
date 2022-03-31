@@ -28,7 +28,7 @@ header{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:5%;
+    padding:3% 5%;
     background-color:var(--Dark-Blue-signInBg);
     font-family: 'Raleway', sans-serif;
 }
@@ -111,6 +111,7 @@ main{
     padding-left:100px;
     display:flex;
     align-items:center;
+    margin-bottom:12em;
 }
 .content-stay{
     display:flex;
@@ -135,4 +136,45 @@ main{
 }
 .content-stay img{
     align-self: center;
+}
+.assessments{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    background-image:url(../images/bg-quotes.png);
+    background-repeat:no-repeat;
+    background-position:10% 1%;
+    padding-top:40px;
+    padding-bottom:15em;
+}
+.box-profiles{
+    background-color:var(--Dark-Blue-testimonialsBg);
+    width:25%;
+}
+.box-profiles>p{
+    color:var(--WhiteLow);
+    padding: 28px 15px 18px 15px;
+    line-height:20px;
+}
+.user{
+    display:flex;
+    flex-direction:row;
+    gap:8px;
+    padding: 0 15px 20px 15px;
+}
+.user>img{
+    width: 10%;
+    border-radius: 50%;
+    align-self:center;
+}
+.name-user>h3{
+    color:var(--White);
+    font-weight:400;
+    font-size:14px;
+}
+.name-user>h4{
+    color:var(--WhiteLow);
+    font-weight:400;
+    font-size:12px;
+    padding-top:4px;
 }
