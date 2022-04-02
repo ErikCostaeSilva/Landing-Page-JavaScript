@@ -200,7 +200,7 @@ aside>p{
     text-align:center;
     padding:0 8em 2em 8em;
 }
-aside>input[type=text]{
+aside input[type=text]{
     height:40px;
     border-radius:30px;
     border:none;
@@ -208,7 +208,7 @@ aside>input[type=text]{
     padding:22px 40px;
     margin:0 30px 45px 70px;
 }
-aside>button{
+aside button{
     background-color:var(--Blue);
     color:var(--White);
     padding:15px 30px 15px 30px;

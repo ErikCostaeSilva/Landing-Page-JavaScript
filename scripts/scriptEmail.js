@@ -40,12 +40,17 @@
         }
     }
     const button=document.querySelector("#button-submit")
-    button.addEventListener("click",(event)=>{
+    button.addEventListener("click",()=>{
         const email=new CheckEmail
+        document.addEventListener("submit",(event)=>{
+        
         if(email.input.value==="" || !email.validateEmail(email.input.value)){
+            event.preventDefault()
             email.generateError()
-        }else{
+            return
+        }else if(event){
             email.generateSuccess()
         }
+        })
     })
 })()
