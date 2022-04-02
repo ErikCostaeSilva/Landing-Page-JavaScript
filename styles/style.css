@@ -9,6 +9,7 @@
     --Cyan:hsl(176, 68%, 64%);
     --Blue:hsl(198, 60%, 50%);
     --Light-Red-error:hsl(0, 100%, 63%);
+    --Green-Success:#06a103;
     --White:hsl(0, 0%, 95%);
     --WhiteLow:hsla(0, 0%, 95%, 0.774);
 }
@@ -213,6 +214,7 @@ aside>button{
     padding:15px 30px 15px 30px;
     border:none;
     border-radius:40px;
+    cursor:pointer;
 }
 footer{
     background-color:var(--Dark-Blue-footerBg);
@@ -244,4 +246,17 @@ footer{
     flex-direction:column;
     justify-content:center;
     gap:15px;
+}
+
+/*Style JavaScript*/
+.divError{
+    position: relative;
+    bottom: 36px;
+    left: 86px;
+}
+.paragraphError{
+    color:var(--Light-Red-error);
+}
+.paragraphSuccess{
+    color:var(--Green-Success);
 }
