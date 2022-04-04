@@ -115,6 +115,9 @@ main{
     align-items:center;
     margin-bottom:12em;
 }
+.stay-productive>img{
+    width:40%;
+}
 .content-stay{
     display:flex;
     flex-direction:column;
@@ -211,7 +214,7 @@ aside input[type=text]{
 aside button{
     background-color:var(--Blue);
     color:var(--White);
-    padding:15px 30px 15px 30px;
+    padding:15px 30px;
     border:none;
     border-radius:40px;
     cursor:pointer;
@@ -246,17 +249,4 @@ footer{
     flex-direction:column;
     justify-content:center;
     gap:15px;
-}
-
-/*Style JavaScript*/
-.divError{
-    position: relative;
-    bottom: 36px;
-    left: 86px;
-}
-.paragraphError{
-    color:var(--Light-Red-error);
-}
-.paragraphSuccess{
-    color:var(--Green-Success);
 }

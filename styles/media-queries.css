@@ -1,0 +1,82 @@
+@media(max-width:1025px){
+    header>img {
+        width: 20%;
+    }
+    .benefits{
+        grid-template-columns: 1fr;
+        width:80%;
+    }
+    .benefits p{
+        width:40%;
+    }
+    .stay-productive {
+        flex-direction:column;
+        padding-left: 0px;
+        
+    }
+    .stay-productive>img{
+        padding-bottom:4em;
+    }
+    .stay-productive h1{
+        width:90%;
+        font-size:1.8em;
+    }
+    .content-stay>p {
+        width:85%;
+    }
+    .assessments {
+        flex-direction:column;
+        align-items:center;
+        background-position: 27% 1%;
+        padding-bottom: 6em;
+    }
+    .box-profiles {
+        width:50%;
+    }
+    aside{
+        width:90%;
+    }
+    form{
+        display:flex;
+        flex-direction:column;
+    }
+    aside input[type="text"]{
+            width:80%;
+            margin-bottom:40px;
+    }
+    aside button{
+        width:70%;
+        margin:auto;
+    }
+    footer{
+        flex-direction:column;
+        align-items:center;
+    }
+    footer li {
+        display: block;
+        padding-bottom:15px;
+    }
+    footer li:nth-child(1){
+        padding-top:20px;
+    }
+}
+@media(max-width:650px){
+    .top-section>h1 {
+        width:90%;
+        font-size:1.8em;
+    }
+    aside>p {
+        padding:0 0 30px 0;
+    }
+    aside input[type="text"]{
+        margin:0;
+        margin-bottom:40px;
+        width:95%;
+    }
+    aside button {
+        width:80%;
+    }
+    .top-section {
+        padding-top:70px;
+    }
+}
