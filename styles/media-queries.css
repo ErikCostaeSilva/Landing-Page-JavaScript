@@ -79,4 +79,10 @@
     .top-section {
         padding-top:70px;
     }
+    .top-section>img {
+        width: 55%;
+    }
+    .stay-productive>img {
+        width:60%;
+    }
 }
